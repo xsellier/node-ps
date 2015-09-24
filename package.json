@@ -1,6 +1,6 @@
 {
   "name": "ps-man",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Manage process (list/kill)",
   "main": "lib/index.js",
   "scripts": {
@@ -27,8 +27,5 @@
   },
   "directories": {
     "test": "test"
-  },
-  "dependencies": {
-    "chai": "^3.3.0"
   }
 }
