@@ -1,0 +1,11 @@
+# Ignore unused directories
+/config
+/node_modules
+/test
+/.git
+
+# ignore test files
+winston-options.json
+gulpfile.js
+.eslintrc
+.gitignore

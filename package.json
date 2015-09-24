@@ -1,0 +1,34 @@
+{
+  "name": "ps-man",
+  "version": "1.0.0",
+  "description": "Manage process (list/kill)",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xsellier/node-ps.git"
+  },
+  "keywords": [
+    "ps",
+    "tasklist",
+    "kill",
+    "taskkill"
+  ],
+  "author": "Xavier Sellier",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xsellier/node-ps/issues"
+  },
+  "homepage": "https://github.com/xsellier/node-ps#readme",
+  "devDependencies": {
+    "chai": "^3.3.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^3.3.0"
+  }
+}
