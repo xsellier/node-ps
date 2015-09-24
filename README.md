@@ -60,6 +60,11 @@ var options = {
 ps.kill(options, function(err) {
   // stuff here
 });
+
+// or could be used as following
+ps.kill(['1501'], function(err) {
+  // stuff here
+});
 ```
 
 # License
