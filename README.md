@@ -48,7 +48,7 @@ ps.list(options, function(err, result) {
 });
 ```
 
-#### Return a cleaned list for mac
+#### Return a cleaned list for OSX/Linux
 
 ```javascript
 var ps = require('ps-man');
