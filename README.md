@@ -1,4 +1,4 @@
-# ps-man
+# ps-man [![Build Status](https://travis-ci.org/xsellier/node-ps.svg)](https://travis-ci.org/xsellier/node-ps)
 
 To install:
 
