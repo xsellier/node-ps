@@ -11,6 +11,7 @@ npm install --save ps-man
 - list
   * name : Process name - _optional_
   * pid : Process identifier - _optional_
+  * clean : boolean to return clean list for mac - _optional_
 - kill
   * pidList : Array of process identifier - _mandatory_
   * signal : The  default signal for kill is TERM. (see ``man ps``) - _optional - OSX/Linux only_
@@ -40,6 +41,21 @@ var ps = require('ps-man');
 // Filter by pid
 var options = {
   pid: 1501
+};
+
+ps.list(options, function(err, result) {
+  // my stuff here
+});
+```
+
+#### Return a cleaned list for mac
+
+```javascript
+var ps = require('ps-man');
+
+// Filter by pid
+var options = {
+  clean: true
 };
 
 ps.list(options, function(err, result) {
